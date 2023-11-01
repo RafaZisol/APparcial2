@@ -39,12 +39,12 @@ const App = () => {
         <Text style={style.buttonText}>Cambiar imagen</Text>
       </TouchableOpacity>
 
-      <input style ={style.input} placeholder="Ingresa tu nombre"></input>
-      <input style ={style.input} placeholder="Ingresa tu apellido"></input>
+      <input style ={style.input} placeholder="Ingresa tu nombre de usuario"></input>
+      <input style ={style.input} placeholder="Ingresa tu contraseña"></input>
       <TouchableOpacity 
       style= {style.button}
       onPress={() => console.log('Hola :v')}>
-        <Text style ={style.buttonText}>Presioname :D</Text>
+        <Text style ={style.buttonText}>Ingresa</Text>
       </TouchableOpacity>
     </View>
   );
